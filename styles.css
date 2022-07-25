@@ -75,6 +75,15 @@ body    {
     border-radius: 12px;
 }
 
+#sign-up-button button:hover    {
+    background-color: navy;
+    color: #F9FAF8;
+}
+
+#sign-up-button button:active    {
+    background-color: red;
+    color: #F9FAF8;
+}
 .right-section {
     display: flex;
     flex-direction: column;
