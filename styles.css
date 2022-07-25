@@ -4,12 +4,12 @@ body    {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Impact, sans-serif;
 }
 
 #logo   {
     font-size: 24px;
-    color: #F9FaF8;
+    color: #F9FAF8;
     font-weight: bold;
 
 }
@@ -17,7 +17,6 @@ body    {
 .links  {
     display: flex;
     flex-direction: row;
- /*   margin-left: auto; */
     gap: 24px;
 
 }
@@ -34,4 +33,55 @@ body    {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.navbar a:hover {
+    color: #3882F6;
+}
+
+.hero-section   {
+    display: flex;
+    background-color: #1F2937;
+    place-content: center;
+}
+
+.left-section   {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 64px 128px;
+    gap: 32px;
+}
+
+#hero-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+#hero-text  {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sign-up-button button  {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 32px;
+    border-radius: 12px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+#hero-image img {
+    width:400px;
+    height:200px;
 }
