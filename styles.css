@@ -4,7 +4,7 @@ body    {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: Impact, sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 #logo   {
@@ -56,7 +56,7 @@ body    {
 #hero-title {
     display: flex;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -93,4 +93,43 @@ body    {
 #hero-image img {
     width:400px;
     height:200px;
+}
+
+.info-section   {
+    display:flex;
+    flex-direction: column;
+    margin: 32px;
+
+}
+
+#info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.info-caption   {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#info-image img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius:20px;
+}
+
+#info-text  {
+    text-align: center;
 }
