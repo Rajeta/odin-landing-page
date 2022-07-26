@@ -91,8 +91,8 @@ body    {
 }
 
 #hero-image img {
-    width:400px;
-    height:200px;
+    width:300px;
+    height: auto;
 }
 
 .info-section   {
@@ -156,6 +156,58 @@ body    {
     text-align: right;
     font-weight: bold;
     width: 75%;
+}
+
+.cta-section    {
+    display: flex;
+    place-content: center;
+    padding: 72px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    width: 50%;
+    justify-content: center;
+}
+
+.cta-left, .cta-right   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 5px;
+}
+
+#cta-header  {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#cta-text   {
+    color: #E5E7EB;
+}
+
+#cta-button  {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 32px;
+    border-radius: 12px;
+    border: 2px solid #F9FAF8;
+}
+
+#cta-button:hover    {
+    background-color: navy;
+    color: #F9FAF8;
+}
+
+#cta-button:active    {
+    background-color: red;
+    color: #F9FAF8;
 }
 
 footer  {
